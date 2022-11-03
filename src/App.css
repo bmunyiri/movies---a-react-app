@@ -48,5 +48,20 @@ movie-title {
 }
 
 container {
+    display: flex;
     align-content: center;
+}
+
+.movie {
+
+    display: flex;
+}
+
+div {
+    display: flex;
+    margin: 1rem;
+    flex-basis: 250px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
 }

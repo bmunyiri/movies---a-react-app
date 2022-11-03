@@ -43,8 +43,8 @@ const [searchTerm, setSearchTerm] = useState("")
         {movies.length > 0
           ? (
           <div className="movie-container">
-              {movies.map( ( movie ) => ( <MovieCard className="movie" movie={movie} /> ) )}
-             
+              {movies.map( ( movie ) => ( <MovieCard className="movie" movie={movie}  /> ) )}
+           
             </div>
           ) :
           (

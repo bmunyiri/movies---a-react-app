@@ -10,14 +10,11 @@ const MovieCard = ({  movie} ) => {
              <p className="span" >Release Year: {movie.Year}</p>
              <div className="movie-title" >{movie.Title}</div>
       <img className="image" src={movie.Poster !== "N/A" ? movie.Poster : 'https://via.placeholder.com/400'} alt={movie.Poster} />
-       <br />
+      <br />
+          <br />
       <br />
       <br />
-      <br />
-      <hr />
-      
-      
-          </div>
+      <hr />         </div>
           
          
    
